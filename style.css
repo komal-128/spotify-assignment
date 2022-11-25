@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.header{
+    
+}
+
+nav{
+    height:90px;
+    width:100%;
+    background-color: black;
+
+}
+.logo{
+    position:relative;
+    left:40px;
+    top:15px;
+}
+.logo img{
+    height:30px;
+    width:30px;
+    
+}
+.logo p{
+    display:inline;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    
+
+}
+nav ul{
+    list-style: none;
+    float:right;
+    position:relative;
+    right:40px;
+    
+}
+nav ul li{
+    padding-left:20px;
+    display:inline-block;
+
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+
+}
+nav ul li a:hover{
+    color:green;
+}
+.pg1{
+    height:700px;
+    width:100%;
+    display:flex;
+    align-content: space-around;
+    justify-content: space-around;
+    background-color:purple;
+}
+.img1{
+   margin-top: 120px;
+}
+.img1 img{
+    height:550px;
+    width:300px;
+}
+.para{
+    margin-right: 20px;
+    display:flex;
+    
+    justify-content: center;
+    flex-direction: column;
+}
+.para h1{
+    font-size: 60px;
+    color:white;
+    
+}
+.btn{
+    margin:30px 10px;
+    height:30px;
+    width:150px;
+    background-color: aliceblue;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    padding:15px;
+    border-radius: 25px;
+}
+.btn:hover{
+    height:34px;
+    width:155px;
+}
+.pg2{
+    height:400px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+.pg2 h2{
+    color:black;
+    font-size: 40px;
+    position:relative;
+    left:570px;
+    
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon{
+    height:280px;
+    width:300px;
+    border:1 px solid black;
+    display:flex;
+    flex-direction: column;
+    align-content:space-around;
+    justify-content: space-around;
+
+    
+}
+.img2 img{
+    height:100px;
+    width:100px;
+}
+.text{
+    margin:10px;
+}
+.text p{
+    padding:8px 0px;
+}
+.pg3{
+    background-color: purple;
+    height:300px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.heading h4{
+    font-size: 65px;
+    color:white;
+    
+
+}
